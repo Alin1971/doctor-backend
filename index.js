@@ -5,6 +5,7 @@ import appointment from "./models/appointment.js"
 
 const app=express()
 
+app.use(cors()); 
 
 app.use(express.urlencoded({extended:true}))
 app.use(express.json())
