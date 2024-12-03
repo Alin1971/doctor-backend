@@ -2,6 +2,9 @@ import express from "express"
 import user from "./models/usermodel.js"
 import doctor from "./models/doctormodel.js"
 import appointment from "./models/appointment.js"
+import cors from "cors";
+
+
 
 const app=express()
 
